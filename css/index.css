@@ -1,0 +1,128 @@
+/* 重置css样式以及通配 */
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img{
+  display: block;
+  border: 0;
+}
+.container{
+  width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.id-title{
+  float: left;
+  margin-bottom:20px;
+  margin-right: 700px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #358;
+}
+
+/* 各个css */
+.nav{
+  position: fixed;
+  top: 0;
+  line-height: 50px;
+  width: 100%;
+  background: #358;
+}
+.nav .nav-list{
+  float: right;
+}
+.nav .nav-list .nav-box{
+  float: left;
+}
+.nav .nav-list .nav-box .nav-text{
+  padding: 0 10px;
+  display: block;
+  color: #FFF;
+}
+.nav .nav-list .nav-box .nav-text.active{
+  background: #bbb;
+}
+
+.header{
+  margin-top: 100px;
+}
+
+.header .header-box{
+  float: left;
+  width: 590px;
+  height: 200px;
+  border-radius: 10px;
+  background: #EEE;
+  text-indent: 2em;
+  padding: 10px;
+}
+.header .header-box .header-intro{
+  font-family: 微软雅黑,serif;
+  letter-spacing: 4px;
+  line-height: 30px;
+}
+.header .img-box{
+  float: right;
+}
+.header .img-box .header-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.program{
+  margin-top: 50px;
+}
+.program .program-item{
+  margin-top: 60px;
+}
+.program .program-item .program-img{
+  margin: 0 auto;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.address{
+  margin: 50px 0;
+}
+.address .address-list{
+  float: left;
+}
+.address .address-item{
+  margin-right: 140px;
+  font-weight: bold;
+  color: #358;
+}
+
+
+.totop{
+  display: none;
+  position: fixed;
+  right: 100px;
+  bottom: 50px;
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  background: #DDD;
+  cursor: pointer;
+}
+.totop:hover{
+  background: #CCC;
+}
